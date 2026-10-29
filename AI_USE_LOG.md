@@ -46,7 +46,7 @@
 - Output: Explained that unless allow_n is explicitly True, standard DNA consists only of ACGT; because is_valid_dna defaults to allow_n=False, calling if not is_valid_dna(...) will reject N and raise a ValueError to stop ambiguous data.
 - Verified by: Checked Week 2 lecture slide 15 and Lab 2 brief Task T2/T3.
 - My change: Used if not is_valid_dna(seq): raise ValueError(...) in both gc_content and transcribe.
-- Used in: rc/lab02_sequences.py (gc_content, transcribe)
+- Used in: src/lab02_sequences.py (gc_content, transcribe)
 
 ## Entry 4
 
